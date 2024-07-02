@@ -1,9 +1,11 @@
 # Distributed Computing Project with Ray Library using Rapid API 
-To be able to distribute tasks amongst virtual machines and be able to execute our Python script, a head node is needed. This virtual machine was created on Azure. Then, because this is a simple task, I only decided to use one worker node virtual machine. If this was a bigger project, then I would have created more worker nodes. 
+This project aims to implement a web scraping script in Python using RapidAPI to gather information on real estate listings in a local area. This data is then gathered for further analysis. In the context of computer networks, this project uses multiple technologies such as web scraping and distributed computing (using Ray) to automate collecting data. 
+Automating the data collection process saves time and effort compared to if it was done manually. Analyzing this data proves to be beneficial for analyzing pricing insights and marketing trends. This data is useful for real estate developers and investors who need this data to make business decisions. This project can be further improved by leveraging cloud storage to store larger amounts of data without limitations. 
+
 
 ## Configuration:
 
-	On Azure, the two VMs were configured under the same resource group, subnet, and operating system (Ubuntu).
+To be able to distribute tasks amongst virtual machines and be able to execute our Python script, a head node is needed. This virtual machine was created on Azure. Then, because this is a simple task, I only decided to use one worker node virtual machine. If this was a bigger project, then I would have created more worker nodes. On Azure, the two VMs were configured under the same resource group, subnet, and operating system (Ubuntu).
 ![azure set up](https://github.com/guegracie/web-scraping-project/assets/95649024/418c34fe-ab3e-48e8-911d-e2c2688feaec)
 
 **Ray Cluster**
